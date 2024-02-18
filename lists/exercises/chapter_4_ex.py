@@ -35,3 +35,11 @@ print(square)
 
 square2=[num**2 for num in range(2,11)]
 print(square2)
+
+# Slicing a list
+numbers=[num for num in range(10)]
+print(numbers)
+print(numbers[1:8:2])
+print(numbers)
+print("Printing the last three elements")
+print(numbers[-3:])
