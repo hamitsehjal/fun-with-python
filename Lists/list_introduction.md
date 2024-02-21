@@ -24,5 +24,6 @@ A list is a collection of items in a particular order
 optional paramter: `reverse=True`
 
 **Question**: If a list contains both lowercase and uppercase letters and you want to sort it alphabetically in a case-insensitive manner, how would you do it??
+- `sorted()` function with *custom-sorting* key
 
 `len()`: length of a list

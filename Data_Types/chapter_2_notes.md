@@ -44,6 +44,7 @@ what's the result ??? - why that happens??
 
 What kind of comments one should write ??
 
-When you’re deciding whether to write a comment, ask yourself if you had to consider several approaches before coming up with a reasonable way to make something work; if so, write a comment about your solution. It’s much easier to delete extra comments later than to go back and write comments for a sparsely commented program. From now on, I’ll use comments in examples throughout this book to help explain sections of code.
-
+- When you’re deciding whether to write a comment, ask yourself if you had to consider several approaches before coming up with a reasonable way to make something work; 
+- if so, write a comment about your solution. It’s much easier to delete extra comments later than to go back and write comments for a sparsely commented program.
+ 
 `import this` to see **Zen of Python**
