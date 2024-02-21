@@ -7,9 +7,11 @@ How to define a Child Class??
             # .....
 
         class Child(Parent):
-            # ....
+            super().__init__(....) 
+            # ......
     ```
-
+- `super()` is a special method that allows you to call a method from *parent* class
+- The name *super* comes from the convention of calling a parent class - `superclass`, and a chile class - `subclass`-
 - You can *override* the parent class method by defining a function with same signature in *child* class
 
 ## Python Standard Library-
