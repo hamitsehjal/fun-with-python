@@ -1,5 +1,5 @@
 # Working with lists
-
+Sure! Here are the different ways to iterate over a list in Python listed in Markdown format:
 ## Iterating over a list
 - Use `for` loop
 - *Note*: Using singular and plural names can help you identify whether a section of code is working with a single element of list or entire list
@@ -9,6 +9,47 @@
         print(i)
     # syntax range(start_index,stop_index,skip)
 ```
+1. **Using a for loop:**
+```python
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+```
+
+2. **Using list comprehension:**
+```python
+my_list = [1, 2, 3, 4, 5]
+[print(item) for item in my_list]
+```
+
+3. **Using the `enumerate` function:**
+```python
+my_list = [1, 2, 3, 4, 5]
+for index, item in enumerate(my_list):
+    print(index, item)
+```
+
+4. **Using the `iter` function with an iterator:**
+```python
+my_list = [1, 2, 3, 4, 5]
+my_iter = iter(my_list)
+while True:
+    try:
+        item = next(my_iter)
+        print(item)
+    except StopIteration:
+        break
+```
+
+5. **Using the `zip` function to iterate over multiple lists simultaneously:**
+```python
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+for item1, item2 in zip(list1, list2):
+    print(item1, item2)
+```
+
+
 ## List Comprehensions
 - Combines a `for` loop and creation of new elements into one line, and automatically appends each new element
 syntax
